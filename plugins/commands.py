@@ -43,8 +43,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🎞 New Movies', url='https://t.me/KaipullaVadiveluOffl'),
-            InlineKeyboardButton('Group 🌏', url='https://t.me/TamilMovies_Zone')
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/KaipullaVadiveluOffl'),
+            InlineKeyboardButton('Request Group 🔗', url='https://t.me/TamilMovies_Zone')
+            ],[
+            InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -83,6 +85,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🎞 New Movies', url='https://t.me/KaipullaVadiveluOffl'),
             InlineKeyboardButton('Group 🌏', url='https://t.me/TamilMovies_Zone')
+            ],[
+            InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
