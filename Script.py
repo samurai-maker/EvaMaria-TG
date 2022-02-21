@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b>Hello Nanba/Nanbi {}👋
-My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies For only @LinkZz_MBBS,\n\n👨‍💻 Developer : <a href='https://t.me/I_m_Kristy'>✯°• Iᴍ Kʀɪsᴛʏ கிறிஸ்டி Via @KaipullaVadiveluOffl  •°✯ « Tᴇᴀᴍ Kᴀɪᴘᴜʟʟᴀ​ »</a></b>"""
+My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies For ,\n\n👨‍💻 Developer : <a href='https://t.me/I_m_Kristy'>✯°• Iᴍ Kʀɪsᴛʏ கிறிஸ்டி Via @KaipullaVadiveluOffl  •°✯ « Tᴇᴀᴍ Kᴀɪᴘᴜʟʟᴀ​ »</a></b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
@@ -10,14 +10,14 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies For only @LinkZz
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
-✯ 𝙳𝙸𝚂𝙲𝚄𝚂𝚂𝙸𝙾𝙽 𝙶𝚁𝙾𝚄𝙿: <a href='https://t.me/mbbsDiss'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
-✯ 𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href='https://t.me/Mbbsmoviesoffical'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>"""
+"""
 
     SOURCE_TXT = """<b>NOTE:</b> 
-- Source - @LinkZz_MBBS 
+- Eva Maria is a open source project. 
+- Source - https://github.com/EvamariaTG/EvaMaria
 
 <b>DEVS:</b>
-- <a href='https://t.me/mukunda3146'>≡ 𝗠𝗨𝗞𝗨𝗡𝗗𝗔 ≡</a>"""
+- <a href='https://t.me/I_m_Kristy'>✯°• Iᴍ Kʀɪsᴛʏ கிறிஸ்டி Via @KaipullaVadiveluOffl  •°✯ « Tᴇᴀᴍ Kᴀɪᴘᴜʟʟᴀ​ »</a></b>
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
@@ -42,7 +42,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies For only @LinkZz
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/LinkZz_MBBS)</code>
+<code>[Button Text](buttonurl:https://t.me/TamilMovies_Zone)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
