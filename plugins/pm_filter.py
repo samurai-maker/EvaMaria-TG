@@ -400,8 +400,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Mbbsmoviesoffical'),
-            InlineKeyboardButton('Request Group 🔗', url='https://t.me/mbbsDiss')
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/KaipullaVadiveluOffl'),
+            InlineKeyboardButton('Request Group 🔗', url='https://t.me/TamilMovies_Zone')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about')
         ]]
@@ -641,7 +641,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"**Your Requested Name Is** : ​`{search}`\n\n**Click Your Choice and Start The Bot**\n\n**🔗 Join : @Mbbsmoviesoffical**"
+        cap = f"**Mᴏᴠɪᴇ Nᴀᴍᴇ 🎞️** : ​`{search}`\n\n**🔗 Join : @TamilMovies_Zone 🔗**"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
