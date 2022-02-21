@@ -88,16 +88,16 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("⏪", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📃 Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
+            [InlineKeyboardButton("⏪PREVIOUS", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📃 PAGE {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
         )
     elif off_set is None:
-        btn.append([InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
+        btn.append([InlineKeyboardButton(f"PAGE {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("NEXT⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("⏪", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
-                InlineKeyboardButton("⏩", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("⏪PREVIOUS", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton(f"📖PAGE {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
+                InlineKeyboardButton("NEXT⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -400,8 +400,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/KaipullaVadiveluOffl'),
-            InlineKeyboardButton('Request Group 🔗', url='https://t.me/TamilMovies_Zone')
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Mbbsmoviesoffical'),
+            InlineKeyboardButton('Request Group 🔗', url='https://t.me/mbbsDiss')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about')
         ]]
@@ -430,7 +430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/KaipullaVadiveluOffl'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/LinkZz_MBBS'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -517,7 +517,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
-            InlineKeyboardButton('♻️', callback_data='rfrsh')
+            InlineKeyboardButton('♻️Refresh', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -536,7 +536,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
-            InlineKeyboardButton('♻️', callback_data='rfrsh')
+            InlineKeyboardButton('♻️Refresh', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
