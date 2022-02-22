@@ -14,11 +14,11 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies For ,\n\n👨‍
 
     SOURCE_TXT = """<b>NOTE:</b> 
 - Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria
+- Source - https://github.com/EvamariaTG/EvaMaria"""
 
 <b>DEVS:</b>
 - <a href='https://t.me/I_m_Kristy'>✯°• Iᴍ Kʀɪsᴛʏ கிறிஸ்டி Via @KaipullaVadiveluOffl  •°✯ « Tᴇᴀᴍ Kᴀɪᴘᴜʟʟᴀ​ »</a></b>
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
+    MANUELFILTER_TXT = Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 
